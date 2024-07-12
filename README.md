@@ -41,3 +41,29 @@ The Unit Converter App is a simple and intuitive Android application designed to
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/unit-converter-app.git
+
+
+2. Open the project in Android Studio.
+3. Build and run the app on an Android device or emulator.
+
+## Usage
+1. Open the app.
+2. Select the type of conversion you want to perform.
+3. Input the value you wish to convert.
+4. View the converted value instantly.
+
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+- Thank you to my mentors for their guidance during this project.
+- Inspiration from various online resources and tutorials.
+
+## Contact
+**For any inquiries, please reach out to me at:**
+
+- **Email:** vighneshsalunkhe949@gmail.com
+- **Project Link:** https://github.com/VighneshDevHub/Unit-Converter-App
