@@ -56,5 +56,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 **For any inquiries, please reach out to me at:**
 
 - **Email:** vighneshsalunkhe949@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/vighn%C9%87sh-salunkhe-302306285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 - **Project Link:** https://github.com/VighneshDevHub/Unit-Converter-App
