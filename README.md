@@ -73,8 +73,8 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-- Thank you to my mentors for their guidance during this project.
-- Inspiration from various online resources and tutorials.
+- Thank you to my mentors Darshan Sir & Shreya Mam for their guidance.
+- Inspiration from online Gmeet, resources and tutorials.
 
 ## Contact
 **For any inquiries, please reach out to me at:**
