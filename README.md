@@ -26,7 +26,6 @@ The Unit Converter App is a simple and intuitive Android application designed to
 - Android Studio
 - Java
 - XML for layout design
-- Bluetooth management (if applicable)
 
 ## Output Screenshots
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
