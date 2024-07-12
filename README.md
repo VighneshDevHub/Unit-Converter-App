@@ -41,10 +41,7 @@ The Unit Converter App is a simple and intuitive Android application designed to
 Watch the video for a demonstration of the app in action:
 [Click to Watch Demo](Video/recording.mp4)
 
-
-
-
-### Installation
+## Installation
 
 1. **Open the project in Android Studio:**
     - Launch Android Studio.
