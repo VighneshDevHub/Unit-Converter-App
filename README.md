@@ -71,7 +71,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Acknowledgments
 - Thank you to my mentors Darshan Sir & Shreya Mam for their guidance.
-- Inspiration from online Google Meet Sessions, resources and tutorials.
+- Inspiration from online Google Meet Sessions,resources and tutorials.
 
 ## Contact
 **For any inquiries, please reach out to me at:**
