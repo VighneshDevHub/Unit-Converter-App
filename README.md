@@ -46,13 +46,22 @@ Watch the video for a demonstration of the app in action:
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/unit-converter-app.git
 
+2. **Open the project in Android Studio:**
+- Launch Android Studio.
+- Click on `File` -> `Open` and navigate to the cloned project directory.
+- Select the project to open it.
 
-2. Open the project in Android Studio.
-3. Build and run the app on an Android device or emulator.
+3. **Build the project:**
+- Click on `Build` -> `Make Project` or press `Ctrl+F9` to build the project.
+
+4. **Run the app:**
+- Connect an Android device or start an emulator.
+- Click on `Run` -> `Run 'app'` or press `Shift+F10` to run the app.
+
 
 ## Usage
 1. Open the app.
