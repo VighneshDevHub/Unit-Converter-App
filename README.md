@@ -36,6 +36,13 @@ The Unit Converter App is a simple and intuitive Android application designed to
     <img src="Screenshots/Screenshot5.jpg" alt="Screenshot 5" height="500" />
 </div>
 
+## Video Demo
+Watch the video below for a demonstration of the app in action:
+<video src="Video/recording.mp4" width="200" controls autoplay loop></video>
+
+
+
+
 ## Installation
 
 1. Clone the repository:
