@@ -1,6 +1,7 @@
 # Unit Converter App
+![Unit Converter Logo](Screenshots/app_logo.png)
 
-![Unit Converter Logo](https://your-image-link.com/logo.png)
+<h2 style="text-align: center;">Unit Converter</h2>
 
 ## Overview
 
