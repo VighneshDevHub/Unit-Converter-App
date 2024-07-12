@@ -1,12 +1,9 @@
 # Unit Converter App
 
-<div style="display: flex; justify-content: center; align-item:center">
-
-<img src="Screenshots/app_logo.png" alt="Unit Converter Logo" height="250" />
-</div>
 
 <div style="text-align: center;">
 
+<img src="Screenshots/app_logo.png" alt="Unit Converter Logo" height="200" />
     <h2>Unit Converter</h2>
 </div>
 
