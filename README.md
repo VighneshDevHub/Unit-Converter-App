@@ -33,7 +33,7 @@ The Unit Converter App is a simple and intuitive Android application designed to
     <img src="Screenshots/Screenshot2.jpg" alt="Screenshot 2" height="500" />
     <img src="Screenshots/Screenshot4.jpg" alt="Screenshot 4" height="500" />
     <img src="Screenshots/Screenshot3.jpg" alt="Screenshot 3" height="500" />
-     <img src="Screenshots/Screenshot6.jpg" alt="Screenshot 6" height="500" />
+     <img src="Screenshots/Screenshot6.png" alt="Screenshot 6" height="500" />
     <img src="Screenshots/Screenshot5.jpg" alt="Screenshot 5" height="500" />
 </div>
 
