@@ -1,7 +1,11 @@
 # Unit Converter App
 
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+
+<img src="Screenshots/app_logo.png" alt="Unit Converter Logo" height="300" />
+</div>
+
 <div style="text-align: center;">
-    <img src="Screenshots/app_logo.png" alt="Unit Converter Logo" height="300" />
     <h2>Unit Converter</h2>
 </div>
 
