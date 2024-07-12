@@ -21,10 +21,17 @@ The Unit Converter App is a simple and intuitive Android application designed to
 - XML for layout design
 - Bluetooth management (if applicable)
 
-## Screenshots
+## Output Screenshots
+<div style="display: flex; justify-content: space-between;">
+<img src="Screenshots/home.jpg" alt="Screenshot 1" height="500" />
+<img src="Screenshots/Screenshot2.jpg" alt="Screenshot 2" height="500" />
+<img src="Screenshots/Screenshot4.jpg" alt="Screenshot 4" height="500" />
+<img src="Screenshots/Screenshot3.jpg" alt="Screenshot 3" height="500" />
+<img src="Screenshots/Screenshot5.jpg" alt="Screenshot 5" height="500" />
 
-![Screenshot 1](https://your-image-link.com/screenshot1.png)
-![Screenshot 2](https://your-image-link.com/screenshot2.png)
+
+</div>
+
 
 ## Installation
 
