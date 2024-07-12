@@ -1,7 +1,9 @@
 # Unit Converter App
-![Unit Converter Logo](Screenshots/app_logo.png)
 
-<h2 style="text-align: center;">Unit Converter</h2>
+<div style="text-align: center;">
+    <img src="Screenshots/app_logo.png" alt="Unit Converter Logo"  height= "300"/>
+    <h2>Unit Converter</h2>
+</div>
 
 ## Overview
 
