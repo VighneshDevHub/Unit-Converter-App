@@ -1,6 +1,6 @@
 # Unit Converter App
 
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+<div style="display: flex; justify-content: center; align-item:center;">
 
 <img src="Screenshots/app_logo.png" alt="Unit Converter Logo" height="300" />
 </div>
