@@ -4,7 +4,9 @@
 <div style="text-align: center;">
 
 <img src="Screenshots/app_logo.png" alt="Unit Converter Logo" height="200" />
-    <h2>Unit Converter</h2>
+    <h2>Unit Converter</h2>  
+        <p><strong>Made By Vighnesh Salunkhe!</strong></p>
+  
 </div>
 
 ## Overview
@@ -36,7 +38,7 @@ The Unit Converter App is a simple and intuitive Android application designed to
 
 ## Video Demo
 Watch the video below for a demonstration of the app in action:
-<video src="Video/recording.mp4" width="200" controls autoplay loop></video>
+![Watch Video Demo](Video/recording.mp4)
 
 
 
