@@ -1,4 +1,3 @@
-// HistoryAdapter.java
 package com.example.unitconverter;
 
 import android.view.LayoutInflater;
