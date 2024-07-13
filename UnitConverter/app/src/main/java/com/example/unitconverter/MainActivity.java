@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         cv_power = findViewById(R.id.cv_power);
         cv_torque = findViewById(R.id.cv_torque);
 
-        // Set onClick listeners for each CardView
         cv_tmp.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, TemperatureConversion.class)));
         cv_weight.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, WeightConversion.class)));
         cv_length.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, LengthConversion.class)));
@@ -62,6 +61,23 @@ public class MainActivity extends AppCompatActivity {
         cv_power.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, PowerConversion.class)));
         cv_torque.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, TorqueConversion.class)));
     }
+
+
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.action_history) {
+            startActivity(new Intent(MainActivity.this, HistoryActivity.class));
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

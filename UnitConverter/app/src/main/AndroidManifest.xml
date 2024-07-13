@@ -171,6 +171,8 @@
                 android:value=".MainActivity" />
         </activity>
 
+        <activity android:name=".HistoryActivity" />
+
     </application>
 
 </manifest>

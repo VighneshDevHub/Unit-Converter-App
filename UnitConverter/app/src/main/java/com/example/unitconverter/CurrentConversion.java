@@ -72,6 +72,11 @@ public class CurrentConversion extends AppCompatActivity {
 
         double outputValue = convert(inputValue, fromUnit, toUnit);
         et_toUnit.setText(String.valueOf(outputValue));
+
+
+        // Save conversion history
+        String historyItem = "Converted " + inputValue + " " + fromUnit + " to " + outputValue + " " + toUnit;
+        HistoryUtils.saveHistory(this, historyItem);
     }
 
     @FunctionalInterface

@@ -73,6 +73,11 @@ public class AreaConversion extends AppCompatActivity {
 
         double outputValue = convert(inputValue, fromUnit, toUnit);
         et_toUnit.setText(String.valueOf(outputValue));
+
+
+        // Save conversion history
+        String historyItem = "Converted " + inputValue + " " + fromUnit + " to " + outputValue + " " + toUnit;
+        HistoryUtils.saveHistory(this, historyItem);
     }
 
     @FunctionalInterface
@@ -133,5 +138,7 @@ public class AreaConversion extends AppCompatActivity {
             default:
                 return squareMeters; // Square Meters
         }
+
     }
+
 }

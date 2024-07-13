@@ -60,6 +60,9 @@ public class LengthConversion extends AppCompatActivity {
                     double inputValue = Double.parseDouble(input);
                     double result = convertLength(inputValue, fromUnit, toUnit);
                     et_toUnit.setText(String.valueOf(result));
+
+                    String historyItem = "Converted " + inputValue + " " + fromUnit + " to " + result + " " + toUnit;
+                    HistoryUtils.saveHistory(LengthConversion.this, historyItem);
                 }
             }
         });
