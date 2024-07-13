@@ -18,7 +18,7 @@ The Unit Converter App is a simple and intuitive Android application designed to
 - **User-Friendly UI:** Intuitive design for easy navigation.
 - **Conversion Logic:** Robust algorithms for multiple unit types (length, weight, temperature).
 
--**RecyclerView:** Efficiently displays the conversion history.
+- **RecyclerView:** Efficiently displays the conversion history.
 - **SharedPreferences:** Save and view past conversions using (History Feature).
 - **Real-Time Feedback:** Instant conversion results as you input values.
 
