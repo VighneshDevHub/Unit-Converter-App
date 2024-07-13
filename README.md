@@ -43,40 +43,42 @@ The Unit Converter App is a simple and intuitive Android application designed to
 - XML for layout design
 
 ## Output Screenshots
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
-    <div>
+## Output Screenshots
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
+    <div style="text-align: center;">
+        <img src="Screenshots/home.jpg" alt="Home Screen" height="500" />
         <h3>Home Screen</h3>
-        <img src="Screenshots/home.jpg" alt="Screenshot 1" height="500" />
     </div>
-    <div>
-        <h3>Search Option</h3>
-        <img src="Screenshots/Screenshot2.jpg" alt="Screenshot 2" height="500" />
+    <div style="text-align: center;">
+        <img src="Screenshots/Screenshot2.jpg" alt="Conversion Screen" height="500" />
+        <h3>Conversion Screen</h3>
     </div>
-    <div>
-        <h3>Unit Selection</h3>
-        <img src="Screenshots/Screenshot4.jpg" alt="Screenshot 4" height="500" />
+    <div style="text-align: center;">
+        <img src="Screenshots/Screenshot4.jpg" alt="History Screen" height="500" />
+        <h3>History Screen</h3>
     </div>
-    <div>
-        <h3>Temparture Conversion</h3>
-        <img src="Screenshots/Screenshot3.jpg" alt="Screenshot 3" height="500" />
+    <div style="text-align: center;">
+        <img src="Screenshots/Screenshot3.jpg" alt="Settings Screen" height="500" />
+        <h3>Settings Screen</h3>
     </div>
-    <div>
-        <h3>Storage Conversion</h3>
-        <img src="Screenshots/Screenshot6.png" alt="Screenshot 6" height="500" />
+    <div style="text-align: center;">
+        <img src="Screenshots/Screenshot6.png" alt="Additional Feature 1" height="500" />
+        <h3>Additional Feature 1</h3>
     </div>
-    <div>
-        <h3>History Feature</h3>
-        <img src="Screenshots/Screenshot7.png" alt="Screenshot 7" height="500" />
+    <div style="text-align: center;">
+        <img src="Screenshots/Screenshot7.png" alt="Additional Feature 2" height="500" />
+        <h3>Additional Feature 2</h3>
     </div>
-    <div>
-        <h3>Conversion History</h3>
-        <img src="Screenshots/Screenshot8.png" alt="Screenshot 8" height="500" />
+    <div style="text-align: center;">
+        <img src="Screenshots/Screenshot8.png" alt="Search Functionality" height="500" />
+        <h3>Search Functionality</h3>
     </div>
-    <div>
-        <h3>Available Units</h3>
-        <img src="Screenshots/Screenshot5.jpg" alt="Screenshot 5" height="500" />
+    <div style="text-align: center;">
+        <img src="Screenshots/Screenshot5.jpg" alt="Final Output Screen" height="500" />
+        <h3>Final Output Screen</h3>
     </div>
 </div>
+
 
 ## Video Demo
 Watch the video for a demonstration of the app in action:
