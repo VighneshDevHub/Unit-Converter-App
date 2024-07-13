@@ -46,7 +46,7 @@ The Unit Converter App is a simple and intuitive Android application designed to
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
     <div>
         <h3>Home Screen</h3>
-        <img src="Screenshots/home.jpg" alt="Screenshot 1" height="500" />
+        <img src="Screenshots/home.png" alt="Screenshot 1" height="500" />
     </div>
     <div>
         <h3>Search Option</h3>
