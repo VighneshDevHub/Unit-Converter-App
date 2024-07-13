@@ -15,11 +15,13 @@ The Unit Converter App is a simple and intuitive Android application designed to
 
 ## Features
 
-- **Supports multiple unit types**: Length, Weight, Temperature, etc.
+- **Supports Multiple Unit Types**: Length, Weight, Temperature, etc.
 - **User-friendly interface**: Simple design for easy navigation.
-- **Real-time conversion**: Instant feedback as users input values.
-- **Search functionality**: Quickly find the unit you want to convert.
-- **Custom themes**: A visually appealing design with different themes.
+- **Real-time Conversion**: Instant feedback as users input values.
+- **Conversion History**: View and manage your past conversions for easy reference.
+
+- **Search Functionality**: Quickly find the unit you want to convert.
+- **Custom Themes**: A visually appealing design with different themes.
 
 ## Technologies Used
 
@@ -34,6 +36,8 @@ The Unit Converter App is a simple and intuitive Android application designed to
     <img src="Screenshots/Screenshot4.jpg" alt="Screenshot 4" height="500" />
     <img src="Screenshots/Screenshot3.jpg" alt="Screenshot 3" height="500" />
      <img src="Screenshots/Screenshot6.png" alt="Screenshot 6" height="500" />
+     <img src="Screenshots/Screenshot7.png" alt="Screenshot 7" height="500" />
+     <img src="Screenshots/Screenshot8.png" alt="Screenshot 8" height="500" />
     <img src="Screenshots/Screenshot5.jpg" alt="Screenshot 5" height="500" />
 </div>
 
