@@ -44,15 +44,38 @@ The Unit Converter App is a simple and intuitive Android application designed to
 
 ## Output Screenshots
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
-    <img src="Screenshots/home.jpg" alt="Screenshot 1" height="500" />
-    <img src="Screenshots/Screenshot2.jpg" alt="Screenshot 2" height="500" />
-    <img src="Screenshots/Screenshot4.jpg" alt="Screenshot 4" height="500" />
-    <img src="Screenshots/Screenshot3.jpg" alt="Screenshot 3" height="500" />
-     <img src="Screenshots/Screenshot6.png" alt="Screenshot 6" height="500" />
-     <img src="Screenshots/Screenshot7.png" alt="Screenshot 7" height="500" />
-     <img src="Screenshots/Screenshot8.png" alt="Screenshot 8" height="500" />
-      <img src="Screenshots/Screeshot9.png" alt="Screenshot 9" height="500" />
-    <img src="Screenshots/Screenshot5.jpg" alt="Screenshot 5" height="500" />
+    <div>
+        <h3>Home Screen</h3>
+        <img src="Screenshots/home.jpg" alt="Screenshot 1" height="500" />
+    </div>
+    <div>
+        <h3>Search Option</h3>
+        <img src="Screenshots/Screenshot2.jpg" alt="Screenshot 2" height="500" />
+    </div>
+    <div>
+        <h3>Unit Selection</h3>
+        <img src="Screenshots/Screenshot4.jpg" alt="Screenshot 4" height="500" />
+    </div>
+    <div>
+        <h3>Temparture Conversion</h3>
+        <img src="Screenshots/Screenshot3.jpg" alt="Screenshot 3" height="500" />
+    </div>
+    <div>
+        <h3>Storage Conversion</h3>
+        <img src="Screenshots/Screenshot6.png" alt="Screenshot 6" height="500" />
+    </div>
+    <div>
+        <h3>History Feature</h3>
+        <img src="Screenshots/Screenshot7.png" alt="Screenshot 7" height="500" />
+    </div>
+    <div>
+        <h3>Conversion History</h3>
+        <img src="Screenshots/Screenshot8.png" alt="Screenshot 8" height="500" />
+    </div>
+    <div>
+        <h3>Available Units</h3>
+        <img src="Screenshots/Screenshot5.jpg" alt="Screenshot 5" height="500" />
+    </div>
 </div>
 
 ## Video Demo
