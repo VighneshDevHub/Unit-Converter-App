@@ -1,34 +1,40 @@
-// Utility class to handle history storage
 package com.example.unitconverter;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
-import org.json.JSONArray;
-import org.json.JSONException;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class HistoryUtils {
+    private static final String PREFS_NAME = "unit_conversion_history";
+    private static final String KEY_HISTORY = "history";
 
-    public static void saveHistory(Context context, String item) {
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
-        String jsonString = preferences.getString("history", "[]");
+    public static void saveHistory(Context context, String historyItem) {
+        SharedPreferences prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        List<String> history = getHistory(context);
+        history.add(0, historyItem); // Add new item at the top
+        editor.putString(KEY_HISTORY, String.join(";", history));
+        editor.apply();
+    }
 
-        List<String> list = new ArrayList<>();
-        try {
-            JSONArray jsonArray = new JSONArray(jsonString);
-            for (int i = 0; i < jsonArray.length(); i++) {
-                list.add(jsonArray.getString(i));
+    public static List<String> getHistory(Context context) {
+        SharedPreferences prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        String historyString = prefs.getString(KEY_HISTORY, "");
+        String[] historyArray = historyString.split(";");
+        List<String> historyList = new ArrayList<>();
+        for (String history : historyArray) {
+            if (!history.isEmpty()) {
+                historyList.add(history);
             }
-        } catch (JSONException e) {
-            e.printStackTrace();
         }
+        return historyList;
+    }
 
-        list.add(0, item); // Add new item at the beginning
-
-        JSONArray newJsonArray = new JSONArray(list);
-        preferences.edit().putString("history", newJsonArray.toString()).apply();
+    public static void clearHistory(Context context) {
+        SharedPreferences prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.remove(KEY_HISTORY);
+        editor.apply();
     }
 }

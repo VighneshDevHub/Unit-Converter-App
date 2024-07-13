@@ -1,47 +1,38 @@
 package com.example.unitconverter;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
-import java.util.ArrayList;
 import java.util.List;
-import org.json.JSONArray;
-import org.json.JSONException;
 
 public class HistoryActivity extends AppCompatActivity {
-    private RecyclerView recyclerView;
-    private HistoryAdapter adapter;
-    private List<String> historyList;
+    private TextView tv_history;
+    private Button btn_clear_history;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_history);
 
-        recyclerView = findViewById(R.id.recycler_view);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        tv_history = findViewById(R.id.tv_history);
+        btn_clear_history = findViewById(R.id.btn_clear_history);
 
-        historyList = loadHistory();
-        adapter = new HistoryAdapter(historyList);
-        recyclerView.setAdapter(adapter);
+        loadHistory();
+
+        btn_clear_history.setOnClickListener(v -> {
+            HistoryUtils.clearHistory(this);
+            loadHistory();
+        });
     }
 
-    private List<String> loadHistory() {
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        String jsonString = preferences.getString("history", "[]");
-
-        List<String> list = new ArrayList<>();
-        try {
-            JSONArray jsonArray = new JSONArray(jsonString);
-            for (int i = 0; i < jsonArray.length(); i++) {
-                list.add(jsonArray.getString(i));
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
+    private void loadHistory() {
+        List<String> historyList = HistoryUtils.getHistory(this);
+        StringBuilder historyText = new StringBuilder();
+        for (String history : historyList) {
+            historyText.append(history).append("\n\n");
         }
-        return list;
+        tv_history.setText(historyText.toString());
     }
 }
